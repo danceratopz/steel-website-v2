@@ -1,35 +1,163 @@
 ---
 title: Home
+hide:
+  - navigation
+  - toc
 ---
 
-<img src="/assets/images/home/steel.png" alt="STEEL Logo" class="logo-light" style="margin: 0 auto; width: 15%;">
-<img src="/assets/images/home/steel-dark.png" alt="STEEL Logo" class="logo-dark" style="margin: 0 auto; width: 15%;">
+<div class="hero-container" markdown>
 
-The STEEL Team (Specifications and Testing for the Ethereum Execution Layer) is an Ethereum Foundation team in [Protocol](https://protocol.ethereum.foundation/) that is responsible for maintaining Ethereum's Execution Layer [specifications](https://ethereum.github.io/execution-specs/src/ethereum/osaka/blocks.py.html), [consensus tests](https://eest.ethereum.org/main/tests/) and EVM [benchmark tests](https://eest.ethereum.org/main/tests/benchmark/).
+<div class="hero-content" markdown>
 
-<br/>
+<p class="hero-label">SPECIFICATIONS & TESTING FOR THE ETHEREUM EXECUTION LAYER</p>
 
-Our main focus is ensuring **accurate specifications and comprehensive testing coverage** for the next [Ethereum hard fork](https://forkcast.org/). Alongside this work, we aim to **accelerate Ethereum development** by supporting researchers to implement specifications and tests proposed for subsequent forks and contribute to the effort to [**Scale the L1**](https://protocol.ethereum.foundation/) by providing [computational- and state-intensive test cases](https://eest.ethereum.org/main/tests/benchmark/) that help client teams prepare for pathological scenarios and support Ethereum safely raise the block gas limit.
+# The Source of Truth for Ethereum’s Execution Layer
 
-<br/>
+<!--
+STEEL bridges EVM research, prototyping, and production, forging [EIP](https://eips.ethereum.org/) proposals into rigorous specifications and test suites used to validate Ethereum’s diverse Execution Layer client ecosystem.
 
-As such, our work is a deeply collaborative effort with many other teams in EF Protocol (such as Prototyping, [ethPandaOps](https://ethpandaops.io/), [Geth](https://geth.ethereum.org/), [Stateless Consensus](https://stateless.fyi/), zkEVM and [Security](https://security.ethereum.org/)), the Mainnet Execution Layer client teams (e.g., Geth, Nethermind, Besu, Erigon, Reth) and other independent Ethereum researchers.
+We help EIP researchers transform proposals into executable specifications and test cases, while providing the test vectors and frameworks that Execution Layer client developers rely on to verify their implementations.
+-->
 
-<br/>
+STEEL <span class="highlight">bridges</span> EVM research, prototyping, and production: we help <span class="highlight">researchers</span> forge [EIP](https://eips.ethereum.org/) proposals into rigorous specifications and test suites, and we provide the test vectors and frameworks that Execution Layer <span class="highlight">client developers</span> depend on to verify their implementations.
 
-One of our major goals is to empower these Ethereum core developers to expedite Ethereum development. We aim to enable:
+<div class="hero-buttons">
+  <a href="about/" class="btn-secondary">
+    More about STEEL
+  </a>
+  <a href="https://ethereum.github.io/execution-specs/src/ethereum/forks/osaka/__init__.py.html" class="btn-primary" target="_blank">
+    Read the Specs
+  </a>
+  <a href="https://eest.ethereum.org/main/tests" class="btn-primary" target="_blank">
+    Browse the Tests
+  </a>
+</div>
 
-- **Researchers** by providing the best tooling to quickly prototype and verify specifications, facilitating the EIP inclusion process for future forks and enabling parallel development.
-- **Client Developers** by providing new test formats and frameworks in order to quickly verify client functionality and easily debug problems when they arise.
+</div>
 
-<br/>
+</div>
 
-We maintain the [ethereum/execution-specs](https://github.com/ethereum/execution-specs) and [ethereum/execution-spec-tests](https://github.com/ethereum/execution-spec-tests) repositories. You can learn more about our work on the [responsibilities page](responsibilities.md) or from our [previous presentations](https://github.com/ethsteel/presentations/blob/main/README.md).
+<style>
+.hero-container {
+  min-height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 2rem 4rem 2rem;
+}
 
-!!! success "Contact Us"
-    You can reach us via:
+.hero-content {
+  max-width: 800px;
+  text-align: left;
+}
 
-    <steel@ethereum.foundation>
+.hero-label {
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #ff9800;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
 
-!!! danger "Reporting mainnet bugs"
-    To find out how to disclose a vulnerability in Ethereum visit [https://bounty.ethereum.org](https://bounty.ethereum.org) or email <bounty@ethereum.org>.
+[data-md-color-scheme="default"] .hero-label {
+  color: #e65100;
+}
+
+.hero-container h1 {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+.hero-container p:not(.hero-label) {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  margin-bottom: 2.5rem;
+  opacity: 0.85;
+}
+
+.highlight {
+  background: linear-gradient(135deg, #ff9800 0%, #f57c00 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+  position: relative;
+}
+
+[data-md-color-scheme="default"] .highlight {
+  background: linear-gradient(135deg, #e65100 0%, #d84315 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.btn-primary {
+  display: inline-block;
+  padding: 0.875rem 2rem;
+  background: linear-gradient(135deg, #ff9800 0%, #f57c00 100%);
+  color: #ffffff !important;
+  text-decoration: none !important;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(255, 152, 0, 0.3);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 152, 0, 0.4);
+}
+
+.btn-secondary {
+  display: inline-block;
+  padding: 0.875rem 2rem;
+  background: transparent;
+  color: #ff9800 !important;
+  text-decoration: none !important;
+  border: 2px solid #ff9800;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+[data-md-color-scheme="default"] .btn-secondary {
+  color: #e65100 !important;
+  border-color: #e65100;
+}
+
+.btn-secondary:hover {
+  background: rgba(255, 152, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+[data-md-color-scheme="default"] .btn-secondary:hover {
+  background: rgba(230, 81, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .hero-container {
+    min-height: 50vh;
+    padding: 3rem 1.5rem;
+  }
+
+  .hero-container h1 {
+    font-size: 2rem;
+  }
+
+  .hero-container p:not(.hero-label) {
+    font-size: 1.125rem;
+  }
+}
+</style>
