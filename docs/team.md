@@ -4,7 +4,7 @@ title: Team
 
 <div class="grid cards" data-columns="1" markdown>
 
--   ![Mario Vega](/assets/images/team/marioevz.png){ .team-avatar }
+-   ![Mario Vega](assets/images/team/marioevz.png){ .team-avatar }
 
     ### **Mario Vega**
 
@@ -14,7 +14,7 @@ title: Team
     [:fontawesome-brands-github:](https://github.com/marioevz){ .md-button target="_blank" }
     [:fontawesome-brands-x-twitter:](https://x.com/elbuenmayini){ .md-button target="_blank" }
 
--   ![Carson](/assets/images/team/Carsons-Eels.jpg){ .team-avatar }
+-   ![Carson](assets/images/team/Carsons-Eels.jpg){ .team-avatar }
 
     ### **Carson**
 
@@ -23,7 +23,7 @@ title: Team
     [:fontawesome-brands-github:](https://github.com/Carsons-Eels){ .md-button target="_blank" }
     [:fontawesome-brands-discord:](https://discord.com/users/carsonseels){ .md-button target="_blank" }
 
--   ![danceratopz](/assets/images/team/danceratopz.jpg){ .team-avatar }
+-   ![danceratopz](assets/images/team/danceratopz.jpg){ .team-avatar }
 
     ### **danceratopz**
 
@@ -34,33 +34,33 @@ title: Team
     [:fontawesome-brands-discord:](https://discord.com/users/danceratopz){ .md-button target="_blank" }
     [:fontawesome-brands-telegram:](https://t.me/danceratopz){ .md-button target="_blank" }
 
--   ![Felix](/assets/images/team/felix314159.png){ .team-avatar }
+-   ![Felix](assets/images/team/felix314159.png){ .team-avatar }
 
     ### **Felix**
 
     [:fontawesome-brands-github:](https://github.com/felix314159){ .md-button target="_blank" }
     [:fontawesome-brands-x-twitter:](https://x.com/felix314159_){ .md-button target="_blank" }
 
--   ![Felipe](/assets/images/team/fselmo.jpg){ .team-avatar }
+-   ![Felipe](assets/images/team/fselmo.jpg){ .team-avatar }
 
     ### **Felipe**
 
     [:fontawesome-brands-github:](https://github.com/fselmo){ .md-button target="_blank" }
     [:fontawesome-brands-x-twitter:](https://x.com/fselmo2){ .md-button target="_blank" }
 
--   ![Guru](/assets/images/team/gurukamath.jpg){ .team-avatar }
+-   ![Guru](assets/images/team/gurukamath.jpg){ .team-avatar }
 
     ### **Guru**
 
     [:fontawesome-brands-github:](https://github.com/gurukamath){ .md-button target="_blank" }
 
--   ![kclowes](/assets/images/team/kclowes.jpg){ .team-avatar }
+-   ![kclowes](assets/images/team/kclowes.jpg){ .team-avatar }
 
     ### **kclowes**
 
     [:fontawesome-brands-github:](https://github.com/kclowes){ .md-button target="_blank" }
 
--   ![Leo Lara](/assets/images/team/leolara.jpg){ .team-avatar }
+-   ![Leo Lara](assets/images/team/leolara.jpg){ .team-avatar }
 
     ### **Leo Lara**
 
@@ -69,26 +69,26 @@ title: Team
     [:fontawesome-brands-github:](https://github.com/leolara){ .md-button target="_blank" }
     [:fontawesome-brands-x-twitter:](https://x.com/leolarav){ .md-button target="_blank" }
 
--   ![Louis](/assets/images/team/LouisTsai-Csie.jpg){ .team-avatar }
+-   ![Louis](assets/images/team/LouisTsai-Csie.jpg){ .team-avatar }
 
     ### **Louis**
 
     [:fontawesome-brands-github:](https://github.com/LouisTsai-Csie){ .md-button target="_blank" }
     [:fontawesome-brands-x-twitter:](https://x.com/0xlouistsai){ .md-button target="_blank" }
 
--   ![Peter Miller](/assets/images/team/petertdavies.jpg){ .team-avatar }
+-   ![Peter Miller](assets/images/team/petertdavies.jpg){ .team-avatar }
 
     ### **Peter Miller**
 
     [:fontawesome-brands-github:](https://github.com/petertdavies){ .md-button target="_blank" }
 
--   ![Sam Wilson](/assets/images/team/SamWilsn.png){ .team-avatar }
+-   ![Sam Wilson](assets/images/team/SamWilsn.png){ .team-avatar }
 
     ### **Sam Wilson**
 
     [:fontawesome-brands-github:](https://github.com/SamWilsn){ .md-button target="_blank" }
 
--   ![Spencer Taylor-Brown](/assets/images/team/spencer-tb.jpg){ .team-avatar }
+-   ![Spencer Taylor-Brown](assets/images/team/spencer-tb.jpg){ .team-avatar }
 
     ### **Spencer Taylor-Brown**
 

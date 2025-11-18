@@ -92,12 +92,12 @@
 /* Theme-aware header logo switching */
 [data-md-color-scheme="default"] .md-header__button.md-logo img,
 [data-md-color-scheme="default"] .md-logo img {
-  content: url("/assets/images/home/steel.png") !important;
+  content: url("../images/home/steel.png") !important;
 }
 
 [data-md-color-scheme="slate"] .md-header__button.md-logo img,
 [data-md-color-scheme="slate"] .md-logo img {
-  content: url("/assets/images/home/steel-dark.png") !important;
+  content: url("../images/home/steel-dark.png") !important;
 }
 
 /* Blog metadata styling */
